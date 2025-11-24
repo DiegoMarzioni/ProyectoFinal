@@ -16,7 +16,7 @@ const MembershipPlans = () => {
       {memberships.map((plan, index) => (
         <div
           key={index}
-          className={`relative bg-slate-800/40 backdrop-blur-sm border rounded-2xl p-6 sm:p-8 transition-all duration-300 hover:transform hover:scale-[1.02] ${
+          className={`relative bg-slate-800/40 backdrop-blur-sm border flex flex-col justify-between rounded-2xl p-6 sm:p-8 transition-all duration-300 hover:transform hover:scale-[1.02] ${
             plan.popular
               ? "border-button/60 hover:border-button hover:shadow-2xl hover:shadow-button/20"
               : "border-border-light/50 hover:border-border-light/70 hover:shadow-xl"
@@ -70,7 +70,7 @@ const MembershipPlans = () => {
 
           <button
             onClick={handleMembershipClick}
-            className={`w-full font-semibold py-2.5 sm:py-3 text-sm sm:text-base rounded-lg transition-all duration-300 ${
+            className={`w-full  font-semibold py-2.5 sm:py-3 text-sm sm:text-base rounded-lg transition-all duration-300 ${
               plan.popular
                 ? "bg-button/80 hover:bg-button text-font-light cursor-pointer hover:shadow-lg hover:shadow-button/30"
                 : "bg-button/40 hover:bg-button/60 text-font-light cursor-pointer hover:shadow-lg hover:shadow-button/30"

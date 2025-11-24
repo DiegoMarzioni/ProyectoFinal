@@ -72,8 +72,8 @@ const CoursesGrid = () => {
         </div>
         <Link
           href="/courses"
-          className="flex justify-center items-center mt-10 bg-button/80 hover:bg-button
-             transition-all duration-300 rounded-lg group mx-auto w-full sm:w-auto max-w-xs sm:max-w-none cursor-pointer"
+          className="flex justify-center  items-center mt-10 bg-button/80 hover:bg-button
+             transition-all duration-300 rounded-lg group mx-auto sm:w-auto max-w-xs  cursor-pointer"
         >
           <p className="text-slate-300 text-base sm:text-lg p-2 sm:p-[11px] rounded-l-lg">
             Ver más cursos

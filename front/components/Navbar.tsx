@@ -8,8 +8,7 @@ import Image from "next/image";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const { user, logout } = useAuth();
-  const isFullyAuthenticated =
-    !!user && user.isEmailVerified && user.checkBoxTerms && user.role !== null;
+  const isFullyAuthenticated = !!user && user.isEmailVerified && user.checkBoxTerms && user.role !== null;
 
   return (
     <>
@@ -17,10 +16,7 @@ export default function Navbar() {
         <nav className="w-full bg-navbar shadow-sm">
           <div className="max-w-7xl mx-auto flex items-center justify-between px-10 py-2 text-sm">
             <div className="flex gap-2 items-center text-[1.3rem] font-medium">
-              <Link
-                href={"/"}
-                className="flex items-center space-x-2 cursor-pointer"
-              >
+              <Link href={"/"} className="flex items-center space-x-2 cursor-pointer">
                 <Image
                   alt="logoDev"
                   src="https://res.cloudinary.com/dtbpi3bic/image/upload/v1761576978/logoDevCorchetes_vh3ui7.webp"
@@ -28,7 +24,6 @@ export default function Navbar() {
                   height={500}
                   className="h-8 w-8"
                 />
-                <span className={`hidden lg:block font-logo`}>DevCore</span>
               </Link>
             </div>
 
@@ -133,7 +128,6 @@ export default function Navbar() {
                 height={500}
                 className="h-8 w-8"
               />
-              <span className="text-lg font-logo">DevCore</span>
             </Link>
 
             {/* Botón hamburguesa */}
