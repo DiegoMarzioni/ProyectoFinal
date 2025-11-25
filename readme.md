@@ -7,11 +7,11 @@
 
 
 
+
 <div align="center">
 	<img src="./logo.jpg" alt="DevCore Proyecto" width="600"/>
 	<h1>🎓 Proyecto Final - Plataforma de Cursos</h1>
 	<p>Plataforma web moderna para gestión y venta de cursos, desarrollada con <b>Next.js</b> y <b>NestJS + TypeORM</b>.</p>
-
 	<br/>
 	<hr/>
 	<h3>🔎 Vista previa del proyecto</h3>
@@ -21,12 +21,14 @@
 			<td align="center"><img src="https://res.cloudinary.com/dvwpxy4kh/image/upload/v1764053854/3_wkioh7.png" alt="Vista previa 2" width="320"/></td>
 		</tr>
 		<tr>
-			<td align="center"><img src="tps://res.cloudinary.com/dvwpxy4kh/image/upload/v1764053854/2_bmzltz.png" alt="Vista previa 3" width="320"/></td>
-			<td align="center"><img src="tps://res.cloudinary.com/dvwpxy4kh/image/upload/v1764053854/4_tk1ily.png" alt="Vista previa 4" width="320"/></td>
+			<td align="center"><img src="https://res.cloudinary.com/dvwpxy4kh/image/upload/v1764053854/2_bmzltz.png" alt="Vista previa 3" width="320"/></td>
+			<td align="center"><img src="https://res.cloudinary.com/dvwpxy4kh/image/upload/v1764053854/4_tk1ily.png" alt="Vista previa 4" width="320"/></td>
+		</tr>
+		<tr>
+			<td align="center"><img src="https://res.cloudinary.com/dvwpxy4kh/image/upload/v1764053854/5_guarom.png" alt="Vista previa 5" width="320"/></td>
+			<td align="center"><img src="https://res.cloudinary.com/dvwpxy4kh/image/upload/v1764053853/6_lh93ei.png" alt="Vista previa 6" width="320"/></td>
 		</tr>
 	</table>
-	<h1>🛍️ Proyecto 4 - E-commerce</h1>
-	<p>Plataforma web moderna para venta de productos, desarrollada con <b>Next.js</b> y <b>Express + TypeORM</b>.</p>
 </div>
 
 
