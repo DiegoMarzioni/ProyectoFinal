@@ -1,43 +1,122 @@
-<p align="center"> <img src="./jzvh9rej4ehh8wparx5j.jpg" alt="DevCore Project" width="10%"/> </p>
 
-## 💻 Proyecto DevCore - Plataforma de Cursos
+<div align="center">
+	<img src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Proyecto" width="600"/>
+	<h1>🎓 Proyecto Final - Plataforma de Cursos</h1>
+	<p>Plataforma web moderna para gestión y venta de cursos, desarrollada con <b>Next.js</b> y <b>NestJS + TypeORM</b>.</p>
+</div>
 
-![Full Stack](https://img.shields.io/badge/Full%20Stack-007ACC?style=for-the-badge&logo=appveyor&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=000000)
-![NestJS](https://img.shields.io/badge/nestjs-E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+---
 
-## 🖥 Descripción
+## 🚀 Descripción
 
-DevCore es una plataforma de cursos online que permite a los usuarios registrarse, explorar cursos y acceder a contenido educativo.
-El proyecto combina un frontend moderno con Next.js/React y un backend escalable con NestJS y PostgreSQL.
+Este proyecto es una plataforma de cursos online que permite a los usuarios explorar el catálogo, gestionar su carrito, comprar cursos y administrar su perfil. Incluye autenticación, panel de usuario, panel de administración y una experiencia visual atractiva.
 
-Funcionalidades principales:
+---
 
-Registro e inicio de sesión de usuarios
+## 🛠️ Tecnologías
 
-Gestión de cursos, categorías y contenidos
+**Frontend:**
+- Next.js 16
+- React 19
+- TailwindCSS
+- Formik, Yup
 
-Autenticación y autorización con JWT
+**Backend:**
+- NestJS
+- TypeORM
+- PostgreSQL
+- JWT, Bcrypt
+- Nodemailer
 
-Dashboard para administración de cursos y usuarios
+---
 
-⚙ Tecnologías
+## 📁 Estructura de Carpetas
 
-## Frontend:
+```bash
+ProyectoFinal/
+├── back/        # Backend (API REST)
+│   ├── src/
+│   │   ├── modules/
+│   │   │   ├── auth/           # Autenticación y usuarios
+│   │   │   ├── course/         # Cursos y gestión
+│   │   │   ├── cart/           # Carrito de compras
+│   │   │   ├── payments/       # Pagos y órdenes
+│   │   │   ├── profiles/       # Perfiles de usuario
+│   │   │   ├── admin/          # Panel de administración
+│   │   │   └── ...
+│   └── ...
+├── front/       # Frontend (Next.js)
+│   ├── app/
+│   ├── components/
+│   ├── context/
+│   ├── hooks/
+│   ├── helpers/
+│   ├── services/
+│   ├── types/
+│   ├── validators/
+│   └── ...
+└── README.md
+```
 
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=000000)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![CSS / Tailwind](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+---
 
-## Backend:
+## ⚡ Instalación Rápida
 
-![NestJS](https://img.shields.io/badge/nestjs-E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+```bash
+# Clona el repositorio
+git clone https://github.com/DiegoMarzioni/ProyectoFinal.git
+cd ProyectoFinal
+
+# Instala dependencias del backend
+cd back
+npm install
+
+# Instala dependencias del frontend
+cd ../front
+npm install
+```
+
+---
+
+## 🖥️ Ejecución
+
+### Backend
+```bash
+cd back
+npm start
+# Servidor en http://localhost:3001
+```
+
+### Frontend
+```bash
+cd front
+npm run dev
+# App en http://localhost:3000
+```
+
+---
+
+## 📦 Funcionalidades
+
+- Autenticación de usuarios (registro, login, recuperación de contraseña)
+- Catálogo de cursos por categorías
+- Carrito de compras
+- Checkout y gestión de órdenes
+- Perfil de usuario y edición
+- Panel de administración para gestión de usuarios y cursos
+- Animaciones y diseño responsivo
+
+---
+
+## 👨‍💻 Autor
+
+**Diego Marzioni**
+
+---
+
+<div align="center">
+	<sub>¡Gracias por visitar el proyecto! 🚀</sub>
+</div>
 ![JWT](https://img.shields.io/badge/JWT-000000.svg?style=for-the-badge&logo=JSONWebTokens&logoColor=white)
 ![Swagger](https://img.shields.io/badge/swagger-%2385EA2D.svg?style=for-the-badge&logo=swagger&logoColor=black)
 
