@@ -11,7 +11,6 @@
 	<img src="./logo.jpg" alt="DevCore Proyecto" width="600"/>
 	<h1>🎓 Proyecto Final - Plataforma de Cursos</h1>
 	<p>Plataforma web moderna para gestión y venta de cursos, desarrollada con <b>Next.js</b> y <b>NestJS + TypeORM</b>.</p>
-</div>
 
 	<br/>
 	<hr/>
@@ -29,6 +28,7 @@
 	<h1>🛍️ Proyecto 4 - E-commerce</h1>
 	<p>Plataforma web moderna para venta de productos, desarrollada con <b>Next.js</b> y <b>Express + TypeORM</b>.</p>
 </div>
+
 
 ---
 
