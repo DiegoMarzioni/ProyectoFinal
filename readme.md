@@ -5,11 +5,12 @@
 
 
 
-![DevCore Proyecto](./logo.jpg)
 
-# 🎓 Proyecto Final - Plataforma de Cursos
-
-Plataforma web moderna para gestión y venta de cursos, desarrollada con **Next.js** y **NestJS + TypeORM**.
+<div align="center">
+	<img src="https://drive.google.com/uc?export=view&id=1Jr0i7rLvm40jrmrn-Nas8ewmuy6fZQqz" alt="DevCore Proyecto" width="600"/>
+	<h1>🎓 Proyecto Final - Plataforma de Cursos</h1>
+	<p>Plataforma web moderna para gestión y venta de cursos, desarrollada con <b>Next.js</b> y <b>NestJS + TypeORM</b>.</p>
+</div>
 
 ---
 
