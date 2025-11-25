@@ -1,6 +1,7 @@
 
+
 <div align="center">
-	<img src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Proyecto" width="600"/>
+	<img src="./front/public/icons/logo.png" alt="DevCore Logo" width="180"/>
 	<h1>🎓 Proyecto Final - Plataforma de Cursos</h1>
 	<p>Plataforma web moderna para gestión y venta de cursos, desarrollada con <b>Next.js</b> y <b>NestJS + TypeORM</b>.</p>
 </div>
