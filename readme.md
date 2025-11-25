@@ -135,13 +135,28 @@ npm run dev
 
 ---
 
-## 👨‍💻 Autor
 
-**Diego Marzioni**
-**Laura Mussa**
-**Jesus Anaya**
-**Gonzalo Moreiro**
-**Adan Franco**
+## 👨‍💻 Autores
+
+<table>
+	<tr>
+		<td align="center">
+			<b>Diego Marzioni</b>
+		</td>
+		<td align="center">
+			<b>Adan Franco</b>
+		</td>
+		<td align="center">
+			<b>Gonzalo Moreiro</b>
+		</td>
+		<td align="center">
+			<b>Jesus Anaya</b>
+		</td><td align="center">
+			<b>Laura Mussa</b>
+		</td>
+	</tr>
+</table>
+
 
 ---
 
