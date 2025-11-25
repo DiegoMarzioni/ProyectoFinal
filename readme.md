@@ -138,14 +138,13 @@ npm run dev
 ## 👨‍💻 Autor
 
 **Diego Marzioni**
+**Laura Mussa**
+**Jesus Anaya**
+**Gonzalo Moreiro**
+**Adan Franco**
 
 ---
 
-<div align="center">
-	<sub>¡Gracias por visitar el proyecto! 🚀</sub>
-</div>
-![JWT](https://img.shields.io/badge/JWT-000000.svg?style=for-the-badge&logo=JSONWebTokens&logoColor=white)
-![Swagger](https://img.shields.io/badge/swagger-%2385EA2D.svg?style=for-the-badge&logo=swagger&logoColor=black)
 
 ##🚀 Instalación y ejecución
 
